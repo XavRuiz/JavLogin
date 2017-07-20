@@ -24,8 +24,8 @@
         android:layout_height="wrap_content"
         android:text="@string/bienvenida"
         android:gravity="center"
-        tools:layout_editor_absoluteY="-15dp"
-        tools:layout_editor_absoluteX="7dp" />
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
     <EditText
         android:id="@+id/et3"
         android:layout_width="0dp"
@@ -37,8 +37,8 @@
         android:id="@+id/bt2"
         android:layout_width="336dp"
         android:layout_height="wrap_content"
-        android:text="@string/"
-        android:onClick="aleatorio"
+        android:text="@string/ingre"
+        android:onClick="action"
         tools:layout_editor_absoluteY="374dp"
         tools:layout_editor_absoluteX="5dp" />
     <ListView
