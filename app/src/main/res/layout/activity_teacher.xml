@@ -5,23 +5,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.javier.javlogin.TeacherActivity"
+    android:orientation="vertical"
     android:padding="16dp"
     >
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="234dp"
+        android:layout_height="231dp"
         app:srcCompat="@mipmap/umg"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="81dp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="37dp"
         />
     <TextView
         android:id="@+id/tx1"
-        android:layout_width="368dp"
+        android:layout_width="336dp"
         android:layout_height="wrap_content"
         android:text="@string/bienvenida"
-        tools:layout_editor_absoluteY="40dp"
-        tools:layout_editor_absoluteX="150dp" />
+        android:gravity="center"
+        tools:layout_editor_absoluteY="-15dp"
+        tools:layout_editor_absoluteX="7dp" />
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ingresar"
+        tools:layout_editor_absoluteY="324dp"
+        tools:layout_editor_absoluteX="3dp" />
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:text="@string/"
+        android:onClick="aleatorio"
+        tools:layout_editor_absoluteY="374dp"
+        tools:layout_editor_absoluteX="5dp" />
+    <ListView
+        android:id="@+id/lt1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteY="446dp"
+        tools:layout_editor_absoluteX="30dp">
+
+    </ListView>
 
 </android.support.constraint.ConstraintLayout>

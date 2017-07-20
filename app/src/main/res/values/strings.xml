@@ -3,4 +3,5 @@
     <string name="correo">correo</string>
     <string name="pass">pass</string>
     <string name="bienvenida">Bienvenido</string>
+    <string name="ingresar">ingresar</string>
 </resources>
