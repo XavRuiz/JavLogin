@@ -11,12 +11,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="234dp"
-        android:layout_height="231dp"
+        android:layout_width="162dp"
+        android:layout_height="140dp"
         app:srcCompat="@mipmap/umg"
-        android:gravity="center"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="37dp"
+        android:gravity="left"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="53dp"
         />
     <TextView
         android:id="@+id/tx1"
@@ -31,22 +31,22 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/ingresar"
-        tools:layout_editor_absoluteY="324dp"
-        tools:layout_editor_absoluteX="3dp" />
+        tools:layout_editor_absoluteY="216dp"
+        tools:layout_editor_absoluteX="4dp" />
     <Button
         android:id="@+id/bt2"
         android:layout_width="336dp"
         android:layout_height="wrap_content"
         android:text="@string/ingre"
         android:onClick="action"
-        tools:layout_editor_absoluteY="374dp"
-        tools:layout_editor_absoluteX="5dp" />
+        tools:layout_editor_absoluteY="275dp"
+        tools:layout_editor_absoluteX="6dp" />
     <ListView
         android:id="@+id/lt1"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        tools:layout_editor_absoluteY="446dp"
-        tools:layout_editor_absoluteX="30dp">
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="339dp"
+        tools:layout_editor_absoluteX="6dp">
 
     </ListView>
 
